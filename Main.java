@@ -15,7 +15,10 @@ public class Main
 
         //simulateManyDays test cases
         f = new Feeder(2400); //ex#1
-        f.simulateManyDays(10,4);
-
+        System.out.println(f.simulateManyDays(10,4));
+        f = new Feeder(250); //ex#2
+        System.out.println(f.simulateManyDays(10,5));
+        f = new Feeder(0); //ex#3
+        System.out.println(f.simulateManyDays(5,10));
     }
 }
